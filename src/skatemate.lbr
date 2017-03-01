@@ -10900,6 +10900,10 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="-1.016" y="-1.143" size="0.0254" layer="27">&gt;VALUE</text>
 <text x="0" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
 </package>
+<package name="SMD_M_1006">
+<smd name="P$1" x="0" y="0" dx="10" dy="6" layer="1"/>
+<text x="-4.9" y="3.4" size="1.27" layer="25">&gt;Name</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DRV8301DCAR">
@@ -15857,6 +15861,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <technology name="">
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="SMD_M_1006" package="SMD_M_1006">
+<connects>
+<connect gate="G$1" pin="TP" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

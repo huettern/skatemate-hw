@@ -7056,7 +7056,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="R5" gate="G$1" x="213.36" y="114.3" rot="R90"/>
 <instance part="+3V1" gate="G$1" x="213.36" y="142.24"/>
 <instance part="L1_DR1050-100-R" gate="G$1" x="187.96" y="134.62"/>
-<instance part="SUPPLY1" gate="1" x="63.5" y="162.56"/>
+<instance part="SUPPLY1" gate="1" x="63.5" y="170.18"/>
 <instance part="+3V2" gate="G$1" x="38.1" y="101.6"/>
 </instances>
 <busses>
@@ -7247,7 +7247,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="88.9" y1="154.94" x2="88.9" y2="157.48" width="0.1524" layer="91"/>
 <junction x="88.9" y="157.48"/>
 <pinref part="SUPPLY1" gate="1" pin="V+"/>
-<wire x1="63.5" y1="160.02" x2="63.5" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="167.64" x2="63.5" y2="157.48" width="0.1524" layer="91"/>
 <junction x="63.5" y="157.48"/>
 </segment>
 </net>

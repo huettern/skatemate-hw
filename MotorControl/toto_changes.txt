@@ -1,0 +1,15 @@
+- 4.7 uF Caps C18 and C20 change to 1206
+- C10 used 10nF
+- Phase Current Sense wire ground rewire to U$1 (Phase A) GND
+- 1 uF Caps C17 (and others??) change to 1206
+- R16 used 200k
+- R22 used 16k
+- C27 used 150p
+- Gate series resostors used 1206, 0805 are available!
+- 4x Voltage sesning resistor divider: 39k High, 2k2 Low, 47pF filter cap, BAS85 diode
+- Gate high side caps used 2u2 100V 1206 X7R
+- D4 change package!! dont use the SBR10B45P5-13DICT-ND
+- R13 used 10k —> CHECK!! (DTC)
+- C15 used 2u2 1210
+- C16 used 1u 1210
+

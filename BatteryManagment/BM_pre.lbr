@@ -1974,6 +1974,23 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="IRF9310PBF">
+<gates>
+<gate name="G$1" symbol="P-SIPMOS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC8">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

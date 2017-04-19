@@ -19848,6 +19848,20 @@ grid 2.54 mm</description>
 <junction x="20.32" y="109.22"/>
 </segment>
 </net>
+<net name="USART3_RX" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="PB11"/>
+<wire x1="55.88" y1="91.44" x2="50.8" y2="91.44" width="0.1524" layer="91"/>
+<label x="50.8" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="USART3_TX" class="0">
+<segment>
+<pinref part="U$3" gate="G$1" pin="PB10"/>
+<wire x1="55.88" y1="93.98" x2="50.8" y2="93.98" width="0.1524" layer="91"/>
+<label x="50.8" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

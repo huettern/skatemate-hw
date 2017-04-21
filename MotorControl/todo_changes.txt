@@ -12,4 +12,4 @@
 - R13 used 10k —> DTC: dead time equals to 80ns
 - C15 used 2u2 1210
 - C16 used 1u 1210
-
+- Shunt sense polarity connected wrong on driver (SP1<->SN1) (SP2<->SN2)

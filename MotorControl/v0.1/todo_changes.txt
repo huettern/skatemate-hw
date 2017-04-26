@@ -1,0 +1,15 @@
+done - 4.7 uF Caps C18 and C20 change to 1206
+done - C10 used 10nF
+done - 1 uF Caps C17 (and others??) change to 1206
+done - R16 used 200k
+done - R22 used 16k
+done - C27 used 150p
+done - Gate series resostors used 1206, 0805 are available!
+done - 4x Voltage sesning resistor divider: 39k High, 2k2 Low, 47pF filter cap, BAS85 diode
+done - Gate high side caps used 2u2 100V 1206 X7R
+done - D4 change package!! dont use the SBR10B45P5-13DICT-ND NEW: SSA210CT-ND from digikey, same package
+done - R13 used 10k —> DTC: dead time equals to 80ns
+done - C15 used 2u2 1210
+done - C16 used 1u 1210
+done - Shunt sense polarity connected wrong on driver (SP1<->SN1) (SP2<->SN2)
+- Phase Current Sense wire ground rewire to U$1 (Phase A) GND

@@ -3695,7 +3695,7 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <instance part="+3V36" gate="G$1" x="116.84" y="45.72" rot="R270"/>
 <instance part="R5" gate="G$1" x="101.6" y="45.72" rot="R180"/>
 <instance part="GND6" gate="1" x="20.32" y="71.12" rot="R180"/>
-<instance part="SV1" gate="1" x="182.88" y="30.48"/>
+<instance part="SV1" gate="1" x="182.88" y="30.48" rot="R180"/>
 <instance part="GND1" gate="1" x="193.04" y="25.4"/>
 <instance part="+3V31" gate="G$1" x="195.58" y="33.02" rot="R270"/>
 <instance part="GND9" gate="1" x="190.5" y="78.74" rot="R180"/>
@@ -3774,7 +3774,7 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <wire x1="20.32" y1="68.58" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="1" pin="1"/>
+<pinref part="SV1" gate="1" pin="6"/>
 <wire x1="190.5" y1="27.94" x2="193.04" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
@@ -3910,7 +3910,7 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <wire x1="106.68" y1="45.72" x2="114.3" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="1" pin="5"/>
+<pinref part="SV1" gate="1" pin="2"/>
 <pinref part="+3V31" gate="G$1" pin="+3V3"/>
 <wire x1="193.04" y1="33.02" x2="190.5" y2="33.02" width="0.1524" layer="91"/>
 </segment>
@@ -3957,7 +3957,7 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <pinref part="U2" gate="G$1" pin="PC6"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="1" pin="2"/>
+<pinref part="SV1" gate="1" pin="5"/>
 <wire x1="175.26" y1="27.94" x2="166.37" y2="27.94" width="0.1524" layer="91"/>
 <label x="166.37" y="27.94" size="0.6096" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -3969,7 +3969,7 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <pinref part="U2" gate="G$1" pin="PB5"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="1" pin="4"/>
+<pinref part="SV1" gate="1" pin="3"/>
 <wire x1="175.26" y1="30.48" x2="166.37" y2="30.48" width="0.1524" layer="91"/>
 <label x="166.37" y="30.48" size="0.6096" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -3986,7 +3986,7 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <pinref part="U2" gate="G$1" pin="PB4"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="1" pin="6"/>
+<pinref part="SV1" gate="1" pin="1"/>
 <wire x1="175.26" y1="33.02" x2="166.37" y2="33.02" width="0.1524" layer="91"/>
 <label x="166.37" y="33.02" size="0.6096" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -4003,7 +4003,7 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <pinref part="U2" gate="G$1" pin="PB3"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="1" pin="3"/>
+<pinref part="SV1" gate="1" pin="4"/>
 <wire x1="190.5" y1="30.48" x2="195.58" y2="30.48" width="0.1524" layer="91"/>
 <label x="195.58" y="30.48" size="0.6096" layer="95" xref="yes"/>
 </segment>

@@ -15885,16 +15885,26 @@ general purpose rectifier, 1 A</description>
 <label x="312.42" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
+<net name="CHARGE_CONTROL" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="TG"/>
+<wire x1="284.48" y1="60.96" x2="307.34" y2="60.96" width="0.1524" layer="91"/>
+<label x="312.42" y="60.96" size="1.27" layer="95" xref="yes"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="307.34" y1="60.96" x2="312.42" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="58.42" x2="307.34" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="58.42" x2="307.34" y2="60.96" width="0.1524" layer="91"/>
+<junction x="307.34" y="60.96"/>
+<pinref part="D1" gate="1" pin="C"/>
+<wire x1="256.54" y1="78.74" x2="307.34" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="78.74" x2="307.34" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="C12" gate="G$1" pin="1"/>
 <pinref part="U2" gate="A" pin="BOOST"/>
-<wire x1="292.1" y1="58.42" x2="287.02" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="D1" gate="1" pin="C"/>
-<wire x1="287.02" y1="58.42" x2="284.48" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="78.74" x2="287.02" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="78.74" x2="287.02" y2="58.42" width="0.1524" layer="91"/>
-<junction x="287.02" y="58.42"/>
+<wire x1="292.1" y1="58.42" x2="284.48" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -16272,18 +16282,6 @@ general purpose rectifier, 1 A</description>
 <pinref part="R56" gate="G$1" pin="1"/>
 <wire x1="332.74" y1="149.86" x2="337.82" y2="149.86" width="0.1524" layer="91"/>
 <label x="337.82" y="149.86" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="CHARGE_CONTROL" class="0">
-<segment>
-<wire x1="307.34" y1="60.96" x2="312.42" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="299.72" y1="58.42" x2="307.34" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="58.42" x2="307.34" y2="60.96" width="0.1524" layer="91"/>
-<junction x="307.34" y="60.96"/>
-<pinref part="U2" gate="A" pin="TG"/>
-<wire x1="284.48" y1="60.96" x2="307.34" y2="60.96" width="0.1524" layer="91"/>
-<label x="312.42" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

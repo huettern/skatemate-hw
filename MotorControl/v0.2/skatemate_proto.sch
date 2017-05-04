@@ -17509,17 +17509,17 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="U1" library="skatemate" deviceset="DRV8301DCAR" device=""/>
-<part name="R1" library="skatemate" deviceset="R-EU_" device="R0805" value="10"/>
-<part name="R2" library="skatemate" deviceset="R-EU_" device="R0805" value="10"/>
-<part name="R4" library="skatemate" deviceset="R-EU_" device="R0805" value="10"/>
-<part name="R5" library="skatemate" deviceset="R-EU_" device="R0805" value="10"/>
-<part name="R7" library="skatemate" deviceset="R-EU_" device="R0805" value="10"/>
-<part name="R8" library="skatemate" deviceset="R-EU_" device="R0805" value="10"/>
-<part name="R3" library="skatemate" deviceset="R_EU" device="" value="1m"/>
-<part name="R6" library="skatemate" deviceset="R_EU" device="" value="1m"/>
+<part name="R1" library="skatemate" deviceset="R-EU_" device="R0805"/>
+<part name="R2" library="skatemate" deviceset="R-EU_" device="R0805"/>
+<part name="R4" library="skatemate" deviceset="R-EU_" device="R0805"/>
+<part name="R5" library="skatemate" deviceset="R-EU_" device="R0805"/>
+<part name="R7" library="skatemate" deviceset="R-EU_" device="R0805"/>
+<part name="R8" library="skatemate" deviceset="R-EU_" device="R0805"/>
+<part name="R3" library="skatemate" deviceset="R_EU" device=""/>
+<part name="R6" library="skatemate" deviceset="R_EU" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="skatemate" deviceset="C-EU" device="C0805" value="2n2"/>
-<part name="C6" library="skatemate" deviceset="C-EU" device="C0805" value="2n2"/>
+<part name="C1" library="skatemate" deviceset="C-EU" device="C0805"/>
+<part name="C6" library="skatemate" deviceset="C-EU" device="C0805"/>
 <part name="R9" library="skatemate" deviceset="R-EU_" device="R0805" value="39k"/>
 <part name="R10" library="skatemate" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="R11" library="skatemate" deviceset="R-EU_" device="R0805" value="39k"/>
@@ -17552,27 +17552,27 @@ Source: www.kingbright.com</description>
 <part name="R17" library="skatemate" deviceset="R-EU_" device="R0805" value="18k"/>
 <part name="R19" library="skatemate" deviceset="R-EU_" device="R0805" value="220k"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="C22" library="skatemate" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C21" library="skatemate" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C20" library="skatemate" deviceset="C-EU" device="C0805" value="0.1u"/>
-<part name="C17" library="skatemate" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C22" library="skatemate" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C21" library="skatemate" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C20" library="skatemate" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C17" library="skatemate" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
 <part name="C19" library="skatemate" deviceset="C-EU" device="C1206" value="2u2"/>
 <part name="C16" library="skatemate" deviceset="C-EU" device="C1206" value="1u"/>
 <part name="C13" library="skatemate" deviceset="C-EU" device="C1206" value="1u"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="C18" library="skatemate" deviceset="C-EU" device="C1206" value="4u7"/>
-<part name="C15" library="skatemate" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C15" library="skatemate" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="C12" library="skatemate" deviceset="C-EU" device="C1206" value="4u7"/>
-<part name="C11" library="skatemate" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C11" library="skatemate" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="D11" library="skatemate" deviceset="SCHOTTKY-DIODE" device="DO-214AA" value="SSA210"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="L1" library="skatemate" deviceset="L-EU" device="SDR0805" value="22u"/>
+<part name="L1" library="skatemate" deviceset="L-EU" device="SDR0805"/>
 <part name="C26" library="skatemate" deviceset="CPOL-EU" device="B/3528-21W" value="100u"/>
 <part name="IC1" library="skatemate" deviceset="REG1117" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="C27" library="skatemate" deviceset="CPOL-EU" device="B/3528-21W" value="100u"/>
-<part name="C28" library="skatemate" deviceset="C-EU" device="C0805" value="0.1u"/>
+<part name="C28" library="skatemate" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="R22" library="skatemate" deviceset="R-EU_" device="R0805" value="18k"/>
 <part name="R23" library="skatemate" deviceset="R-EU_" device="R0805" value="18k"/>
 <part name="R24" library="skatemate" deviceset="R-EU_" device="R0805" value="18k"/>
@@ -17603,7 +17603,7 @@ Source: www.kingbright.com</description>
 <part name="R31" library="skatemate" deviceset="R-EU_" device="R0805" value="22"/>
 <part name="R30" library="skatemate" deviceset="R-EU_" device="R0805" value="22"/>
 <part name="R29" library="skatemate" deviceset="R-EU_" device="R0805" value="1k5"/>
-<part name="R28" library="skatemate" deviceset="R-EU_" device="R0805" value="0*"/>
+<part name="R28" library="skatemate" deviceset="R-EU_" device="R0805" value="0 *"/>
 <part name="P+11" library="supply1" deviceset="VCC" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
 <part name="C31" library="skatemate" deviceset="C-EU" device="C0805" value="2u2"/>
@@ -17627,9 +17627,9 @@ Source: www.kingbright.com</description>
 <part name="D4" library="skatemate" deviceset="IRFS7534" device=""/>
 <part name="D5" library="skatemate" deviceset="IRFS7534" device=""/>
 <part name="D6" library="skatemate" deviceset="IRFS7534" device=""/>
-<part name="D12" library="skatemate" deviceset="LED" device="CHIP-LED0805"/>
-<part name="D13" library="skatemate" deviceset="LED" device="CHIP-LED0805"/>
-<part name="D14" library="skatemate" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED1" library="skatemate" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED2" library="skatemate" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED3" library="skatemate" deviceset="LED" device="CHIP-LED0805"/>
 <part name="R25" library="skatemate" deviceset="R-EU_" device="R0805" value="3k3"/>
 <part name="R26" library="skatemate" deviceset="R-EU_" device="R0805" value="3k3"/>
 <part name="R27" library="skatemate" deviceset="R-EU_" device="R0805" value="3k3"/>
@@ -18826,9 +18826,9 @@ Source: www.kingbright.com</description>
 <instance part="GND18" gate="1" x="147.32" y="124.46"/>
 <instance part="U2" gate="G$1" x="78.74" y="104.14"/>
 <instance part="U2" gate="G$2" x="198.12" y="104.14"/>
-<instance part="D12" gate="G$1" x="10.16" y="58.42"/>
-<instance part="D13" gate="G$1" x="17.78" y="58.42"/>
-<instance part="D14" gate="G$1" x="25.4" y="58.42"/>
+<instance part="LED1" gate="G$1" x="10.16" y="58.42"/>
+<instance part="LED2" gate="G$1" x="17.78" y="58.42"/>
+<instance part="LED3" gate="G$1" x="25.4" y="58.42"/>
 <instance part="R25" gate="G$1" x="10.16" y="71.12" rot="R90"/>
 <instance part="R26" gate="G$1" x="17.78" y="71.12" rot="R90"/>
 <instance part="R27" gate="G$1" x="25.4" y="71.12" rot="R90"/>
@@ -19219,13 +19219,13 @@ Source: www.kingbright.com</description>
 <junction x="147.32" y="137.16"/>
 </segment>
 <segment>
-<pinref part="D12" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="10.16" y1="53.34" x2="10.16" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="D14" gate="G$1" pin="C"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
 <wire x1="10.16" y1="50.8" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="50.8" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="D13" gate="G$1" pin="C"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="17.78" y1="53.34" x2="17.78" y2="50.8" width="0.1524" layer="91"/>
 <junction x="17.78" y="50.8"/>
 <pinref part="GND13" gate="1" pin="GND"/>
@@ -19304,21 +19304,21 @@ Source: www.kingbright.com</description>
 <net name="N$31" class="0">
 <segment>
 <pinref part="R25" gate="G$1" pin="1"/>
-<pinref part="D12" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="10.16" y1="66.04" x2="10.16" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
-<pinref part="D13" gate="G$1" pin="A"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="17.78" y1="66.04" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="R27" gate="G$1" pin="1"/>
-<pinref part="D14" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>

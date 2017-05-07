@@ -15442,6 +15442,7 @@ W = angled&lt;p&gt;
 <pinref part="U$25" gate="G$1" pin="D"/>
 <wire x1="160.02" y1="55.88" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U$19" gate="G$1" pin="G"/>
+<junction x="149.86" y="55.88"/>
 </segment>
 </net>
 <net name="SELBSTERHALTUNG" class="0">

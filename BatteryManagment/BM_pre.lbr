@@ -2557,6 +2557,39 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="FDS6699">
+<gates>
+<gate name="A" symbol="NMOS-FET-E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC8">
+<connects>
+<connect gate="A" pin="D" pad="5 6 7 8"/>
+<connect gate="A" pin="G" pad="4"/>
+<connect gate="A" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BAV99">
+<gates>
+<gate name="A" symbol="D-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="A" pin="A" pad="1"/>
+<connect gate="A" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

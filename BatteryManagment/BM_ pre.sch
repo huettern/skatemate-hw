@@ -14738,6 +14738,7 @@ general purpose rectifier, 1 A</description>
 <part name="U$18" library="BM_pre" deviceset="BC327" device=""/>
 <part name="U$20" library="BM_pre" deviceset="BC327" device=""/>
 <part name="U$21" library="BM_pre" deviceset="BC327" device=""/>
+<part name="R57" library="rcl" deviceset="R-EU_" device="R0603" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -14769,6 +14770,7 @@ general purpose rectifier, 1 A</description>
 <instance part="U$26" gate="G$1" x="231.14" y="116.84"/>
 <instance part="GND24" gate="1" x="233.68" y="86.36"/>
 <instance part="R39" gate="G$1" x="233.68" y="99.06" rot="R270"/>
+<instance part="R57" gate="G$1" x="220.98" y="116.84"/>
 </instances>
 <busses>
 </busses>
@@ -15014,9 +15016,9 @@ general purpose rectifier, 1 A</description>
 <label x="144.78" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="228.6" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
-<label x="223.52" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$26" gate="G$1" pin="B"/>
+<label x="213.36" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R57" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="116.84" x2="213.36" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CHARGE_PWM" class="0">
@@ -15111,6 +15113,13 @@ general purpose rectifier, 1 A</description>
 <pinref part="U$26" gate="G$1" pin="E"/>
 <pinref part="R39" gate="G$1" pin="1"/>
 <wire x1="233.68" y1="111.76" x2="233.68" y2="104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$45" class="0">
+<segment>
+<pinref part="U$26" gate="G$1" pin="B"/>
+<pinref part="R57" gate="G$1" pin="2"/>
+<wire x1="226.06" y1="116.84" x2="228.6" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

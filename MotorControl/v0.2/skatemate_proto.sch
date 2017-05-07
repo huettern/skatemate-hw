@@ -19471,9 +19471,9 @@ Source: www.kingbright.com</description>
 <label x="185.42" y="68.58" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PC0"/>
-<wire x1="101.6" y1="142.24" x2="111.76" y2="142.24" width="0.1524" layer="91"/>
-<label x="111.76" y="142.24" size="1.016" layer="95" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PC2"/>
+<wire x1="101.6" y1="137.16" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
+<label x="111.76" y="137.16" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RFM_NCS" class="0">
@@ -19495,9 +19495,9 @@ Source: www.kingbright.com</description>
 <label x="185.42" y="55.88" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="PC2"/>
-<wire x1="101.6" y1="137.16" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
-<label x="111.76" y="137.16" size="1.016" layer="95" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PC0"/>
+<wire x1="101.6" y1="142.24" x2="111.76" y2="142.24" width="0.1524" layer="91"/>
+<label x="111.76" y="142.24" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

@@ -14776,7 +14776,6 @@ W = angled&lt;p&gt;
 <part name="R72" library="rcl" deviceset="R-EU_" device="R0603"/>
 <part name="U$36" library="BM_pre" deviceset="SI4490" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
-<part name="R73" library="rcl" deviceset="R-EU_" device="R0603"/>
 <part name="R74" library="rcl" deviceset="R-EU_" device="R0603" value="0"/>
 <part name="R75" library="rcl" deviceset="R-EU_" device="R0603" value="0"/>
 <part name="15V" library="wirepad" deviceset="SMD5" device=""/>
@@ -16497,7 +16496,6 @@ W = angled&lt;p&gt;
 <instance part="R72" gate="G$1" x="101.6" y="53.34" rot="R180"/>
 <instance part="U$36" gate="G$1" x="139.7" y="63.5" rot="MR0"/>
 <instance part="GND29" gate="1" x="137.16" y="53.34"/>
-<instance part="R73" gate="G$1" x="160.02" y="60.96" rot="R180"/>
 <instance part="15V" gate="1" x="68.58" y="99.06"/>
 </instances>
 <busses>
@@ -16732,18 +16730,11 @@ W = angled&lt;p&gt;
 <wire x1="93.98" y1="53.34" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$57" class="0">
-<segment>
-<pinref part="U$36" gate="G$1" pin="G"/>
-<pinref part="R73" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="60.96" x2="154.94" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="EN_LED" class="0">
 <segment>
-<pinref part="R73" gate="G$1" pin="1"/>
-<wire x1="165.1" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
 <label x="177.8" y="60.96" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$36" gate="G$1" pin="G"/>
+<wire x1="142.24" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BATTERY+" class="0">

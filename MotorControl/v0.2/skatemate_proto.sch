@@ -17701,6 +17701,8 @@ Source: www.kingbright.com</description>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="P+13" library="supply1" deviceset="VCC" device=""/>
 <part name="C40" library="skatemate" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C41" library="skatemate" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="GND21" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18213,6 +18215,8 @@ Source: www.kingbright.com</description>
 <instance part="C25" gate="G$1" x="147.32" y="165.1" rot="R90"/>
 <instance part="C24" gate="G$1" x="139.7" y="172.72" rot="R90"/>
 <instance part="GND9" gate="1" x="160.02" y="160.02"/>
+<instance part="C41" gate="G$1" x="78.74" y="170.18" rot="R90"/>
+<instance part="GND21" gate="1" x="88.9" y="167.64"/>
 </instances>
 <busses>
 </busses>
@@ -18326,6 +18330,11 @@ Source: www.kingbright.com</description>
 <pinref part="U1" gate="A" pin="SN2"/>
 <wire x1="78.74" y1="53.34" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
 <label x="66.04" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="GND21" gate="1" pin="GND"/>
+<pinref part="C41" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="170.18" x2="83.82" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SN_A" class="0">
@@ -18456,7 +18465,10 @@ Source: www.kingbright.com</description>
 <pinref part="U1" gate="A" pin="VDD_SPI"/>
 <pinref part="P+5" gate="VCC" pin="VCC"/>
 <wire x1="78.74" y1="142.24" x2="71.12" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="142.24" x2="71.12" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="142.24" x2="71.12" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="C41" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="170.18" x2="71.12" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="170.18" x2="71.12" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R22" gate="G$1" pin="2"/>

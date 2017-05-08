@@ -1296,14 +1296,6 @@ Source: www.kingbright.com</description>
 <text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
-<symbol name="+12V">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.635" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 <symbol name="VCC">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
@@ -1337,19 +1329,6 @@ Source: www.kingbright.com</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="+5V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+12V" prefix="P+">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="+12V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -1701,6 +1680,19 @@ reflow soldering</description>
 <smd name="P$2" x="3.3" y="0" dx="10.2" dy="3.5" layer="1" rot="R90"/>
 <circle x="0" y="0" radius="6.35" width="0.127" layer="21"/>
 </package>
+<package name="LITTELFUSE">
+<smd name="P$1" x="4.7475" y="0" dx="3.775" dy="5.65" layer="1"/>
+<smd name="P$3" x="-4.7475" y="0" dx="3.775" dy="5.65" layer="1"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-2.54" x2="-3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="-2.54" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-2.54" x2="6.35" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-2.54" x2="6.35" y2="2.54" width="0.127" layer="21"/>
+<wire x1="6.35" y1="2.54" x2="3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="-6.35" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="D-1">
@@ -1939,6 +1931,25 @@ reflow soldering</description>
 <pin name="-IN" x="-7.62" y="-2.54" visible="pad" length="short" direction="in"/>
 <pin name="+IN" x="-7.62" y="2.54" visible="pad" length="short" direction="in"/>
 <pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+</symbol>
+<symbol name="FUSE2">
+<wire x1="-2.54" y1="-1.27" x2="-1.905" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="1.905" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.27" x2="-1.905" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-1.27" x2="1.905" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="-1.905" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<text x="-1.27" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-3.4798" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2A" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.15" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2271,6 +2282,22 @@ reflow soldering</description>
 <connects>
 <connect gate="A" pin="A" pad="1"/>
 <connect gate="A" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EATON_50A_FUSE">
+<gates>
+<gate name="G$1" symbol="FUSE2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LITTELFUSE">
+<connects>
+<connect gate="G$1" pin="1A" pad="P$1"/>
+<connect gate="G$1" pin="2A" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14644,7 +14671,6 @@ W = angled&lt;p&gt;
 <part name="R23" library="rcl" deviceset="R-EU_" device="R0603" value="66k"/>
 <part name="R24" library="rcl" deviceset="R-EU_" device="R0603" value="66k"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
-<part name="P+7" library="supply1" deviceset="+12V" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="LED2" library="eagle-ltspice" deviceset="LED_E" device=""/>
 <part name="LED1" library="eagle-ltspice" deviceset="LED_E" device=""/>
@@ -14666,7 +14692,6 @@ W = angled&lt;p&gt;
 <part name="BATTERY-" library="BM_pre" deviceset="PAD" device="" value="Battery+"/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="CELL1" library="wirepad" deviceset="SMD5" device=""/>
-<part name="GND14" library="wirepad" deviceset="SMD5" device=""/>
 <part name="CELL2" library="wirepad" deviceset="SMD5" device=""/>
 <part name="CELL3" library="wirepad" deviceset="SMD5" device=""/>
 <part name="CELL4" library="wirepad" deviceset="SMD5" device=""/>
@@ -14719,7 +14744,6 @@ W = angled&lt;p&gt;
 <part name="U$1" library="BM_pre" deviceset="LM22677TJE-ADJ/NOPB" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>
 <part name="P+10" library="supply1" deviceset="VCC" device=""/>
-<part name="P+11" library="supply1" deviceset="VCC" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603" value="10nF"/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0603" value="100nF"/>
 <part name="R59" library="rcl" deviceset="R-EU_" device="R0603"/>
@@ -14783,6 +14807,8 @@ W = angled&lt;p&gt;
 <part name="R88" library="rcl" deviceset="R-EU_" device="R0603" value="39k"/>
 <part name="R89" library="rcl" deviceset="R-EU_" device="R0603"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="U$23" library="BM_pre" deviceset="EATON_50A_FUSE" device=""/>
+<part name="P+2" library="supply1" deviceset="+15V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15234,6 +15260,7 @@ W = angled&lt;p&gt;
 <instance part="P+9" gate="VCC" x="71.12" y="142.24"/>
 <instance part="U$34" gate="G$1" x="116.84" y="129.54"/>
 <instance part="U$19" gate="G$1" x="152.4" y="68.58" rot="MR90"/>
+<instance part="U$23" gate="G$1" x="172.72" y="152.4" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -15361,10 +15388,10 @@ W = angled&lt;p&gt;
 <wire x1="187.96" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="121.92" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
 <junction x="185.42" y="129.54"/>
-<pinref part="BATTERY+" gate="G$1" pin="TP"/>
-<wire x1="172.72" y1="162.56" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
-<label x="172.72" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="172.72" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 <junction x="172.72" y="129.54"/>
+<pinref part="U$23" gate="G$1" pin="1A"/>
+<wire x1="172.72" y1="147.32" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="147.32" y1="71.12" x2="139.7" y2="71.12" width="0.1524" layer="91"/>
@@ -15489,6 +15516,13 @@ W = angled&lt;p&gt;
 <junction x="86.36" y="129.54"/>
 </segment>
 </net>
+<net name="N$73" class="0">
+<segment>
+<pinref part="BATTERY+" gate="G$1" pin="TP"/>
+<wire x1="172.72" y1="162.56" x2="172.72" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="U$23" gate="G$1" pin="2A"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -15497,7 +15531,7 @@ W = angled&lt;p&gt;
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="GND15" gate="1" x="139.7" y="132.08"/>
+<instance part="GND15" gate="1" x="149.86" y="132.08"/>
 <instance part="R3" gate="G$1" x="116.84" y="157.48" rot="R90"/>
 <instance part="R4" gate="G$1" x="109.22" y="180.34" rot="R90"/>
 <instance part="R5" gate="G$1" x="109.22" y="157.48" rot="R90"/>
@@ -15527,10 +15561,8 @@ W = angled&lt;p&gt;
 <instance part="R23" gate="G$1" x="76.2" y="76.2" rot="R180"/>
 <instance part="R24" gate="G$1" x="76.2" y="55.88" rot="R180"/>
 <instance part="C12" gate="G$1" x="294.64" y="58.42" rot="R90"/>
-<instance part="P+7" gate="1" x="223.52" y="93.98"/>
 <instance part="GND19" gate="1" x="226.06" y="12.7"/>
 <instance part="CELL1" gate="1" x="139.7" y="180.34" rot="R270"/>
-<instance part="GND14" gate="1" x="139.7" y="172.72" rot="R270"/>
 <instance part="CELL2" gate="1" x="139.7" y="187.96" rot="R270"/>
 <instance part="CELL3" gate="1" x="139.7" y="195.58" rot="R270"/>
 <instance part="CELL4" gate="1" x="139.7" y="203.2" rot="R270"/>
@@ -15596,6 +15628,7 @@ W = angled&lt;p&gt;
 <instance part="R88" gate="G$1" x="236.22" y="78.74" rot="R180"/>
 <instance part="R89" gate="G$1" x="317.5" y="60.96" rot="R180"/>
 <instance part="GND8" gate="1" x="119.38" y="45.72"/>
+<instance part="P+2" gate="1" x="223.52" y="93.98"/>
 </instances>
 <busses>
 </busses>
@@ -15669,16 +15702,12 @@ W = angled&lt;p&gt;
 </net>
 <net name="GND" class="1">
 <segment>
-<wire x1="139.7" y1="170.18" x2="139.7" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
-<pinref part="GND14" gate="1" pin="P"/>
-<wire x1="139.7" y1="142.24" x2="139.7" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="142.24" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="144.78" x2="149.86" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="142.24" x2="139.7" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="144.78" x2="154.94" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="142.24" x2="149.86" y2="142.24" width="0.1524" layer="91"/>
 <junction x="149.86" y="142.24"/>
-<junction x="139.7" y="142.24"/>
 <pinref part="R78" gate="G$1" pin="1"/>
 <pinref part="R79" gate="G$1" pin="1"/>
 </segment>
@@ -15937,18 +15966,6 @@ W = angled&lt;p&gt;
 <junction x="287.02" y="58.42"/>
 <pinref part="U$37" gate="G$1" pin="VS"/>
 <pinref part="U$7" gate="A" pin="C"/>
-</segment>
-</net>
-<net name="+12V" class="0">
-<segment>
-<pinref part="P+7" gate="1" pin="+12V"/>
-<pinref part="U$37" gate="G$1" pin="VDD"/>
-<wire x1="228.6" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="223.52" y1="63.5" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R88" gate="G$1" pin="2"/>
-<wire x1="223.52" y1="78.74" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="78.74" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
-<junction x="223.52" y="78.74"/>
 </segment>
 </net>
 <net name="CHARGE_PWM" class="0">
@@ -16428,6 +16445,18 @@ W = angled&lt;p&gt;
 <wire x1="284.48" y1="60.96" x2="312.42" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="+15V" class="0">
+<segment>
+<pinref part="U$37" gate="G$1" pin="VDD"/>
+<wire x1="228.6" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="63.5" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R88" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="78.74" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="78.74" x2="223.52" y2="78.74" width="0.1524" layer="91"/>
+<junction x="223.52" y="78.74"/>
+<pinref part="P+2" gate="1" pin="+15V"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -16437,7 +16466,6 @@ W = angled&lt;p&gt;
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="U$1" gate="A" x="91.44" y="132.08"/>
-<instance part="P+11" gate="VCC" x="63.5" y="149.86"/>
 <instance part="C1" gate="G$1" x="86.36" y="127" rot="R90"/>
 <instance part="C14" gate="G$1" x="55.88" y="129.54" rot="R90"/>
 <instance part="R59" gate="G$1" x="195.58" y="134.62" rot="R90"/>
@@ -16484,17 +16512,6 @@ W = angled&lt;p&gt;
 <wire x1="195.58" y1="124.46" x2="195.58" y2="127" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="127" x2="195.58" y2="129.54" width="0.1524" layer="91"/>
 <junction x="195.58" y="127"/>
-</segment>
-</net>
-<net name="VCC" class="0">
-<segment>
-<pinref part="U$1" gate="A" pin="VIN"/>
-<wire x1="93.98" y1="129.54" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="129.54" x2="63.5" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="P+11" gate="VCC" pin="VCC"/>
-<pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="60.96" y1="129.54" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
-<junction x="63.5" y="129.54"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -16727,6 +16744,17 @@ W = angled&lt;p&gt;
 <pinref part="R73" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
 <label x="177.8" y="60.96" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BATTERY+" class="0">
+<segment>
+<pinref part="U$1" gate="A" pin="VIN"/>
+<wire x1="93.98" y1="129.54" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="129.54" x2="63.5" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="129.54" x2="63.5" y2="129.54" width="0.1524" layer="91"/>
+<junction x="63.5" y="129.54"/>
+<label x="63.5" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

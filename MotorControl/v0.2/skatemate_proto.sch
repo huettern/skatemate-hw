@@ -17567,17 +17567,17 @@ Source: www.kingbright.com</description>
 </classes>
 <parts>
 <part name="U1" library="skatemate" deviceset="DRV8301DCAR" device=""/>
-<part name="R1" library="skatemate" deviceset="R-EU_" device="R0805"/>
-<part name="R2" library="skatemate" deviceset="R-EU_" device="R0805"/>
-<part name="R4" library="skatemate" deviceset="R-EU_" device="R0805"/>
-<part name="R5" library="skatemate" deviceset="R-EU_" device="R0805"/>
-<part name="R7" library="skatemate" deviceset="R-EU_" device="R0805"/>
-<part name="R8" library="skatemate" deviceset="R-EU_" device="R0805"/>
-<part name="R3" library="skatemate" deviceset="R_EU" device=""/>
-<part name="R6" library="skatemate" deviceset="R_EU" device=""/>
+<part name="R1" library="skatemate" deviceset="R-EU_" device="R0805" value="10"/>
+<part name="R2" library="skatemate" deviceset="R-EU_" device="R0805" value="10"/>
+<part name="R4" library="skatemate" deviceset="R-EU_" device="R0805" value="10"/>
+<part name="R5" library="skatemate" deviceset="R-EU_" device="R0805" value="10"/>
+<part name="R7" library="skatemate" deviceset="R-EU_" device="R0805" value="10"/>
+<part name="R8" library="skatemate" deviceset="R-EU_" device="R0805" value="10"/>
+<part name="R3" library="skatemate" deviceset="R_EU" device="" value="1m"/>
+<part name="R6" library="skatemate" deviceset="R_EU" device="" value="1m"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="skatemate" deviceset="C-EU" device="C0805"/>
-<part name="C6" library="skatemate" deviceset="C-EU" device="C0805"/>
+<part name="C1" library="skatemate" deviceset="C-EU" device="C0805" value="2n2"/>
+<part name="C6" library="skatemate" deviceset="C-EU" device="C0805" value="2n2"/>
 <part name="R9" library="skatemate" deviceset="R-EU_" device="R0805" value="39k"/>
 <part name="R10" library="skatemate" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="R11" library="skatemate" deviceset="R-EU_" device="R0805" value="39k"/>
@@ -17601,7 +17601,7 @@ Source: www.kingbright.com</description>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
 <part name="FRAME2" library="frames" deviceset="DINA4_L" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C23" library="skatemate" deviceset="C-EU" device="C0805"/>
+<part name="C23" library="skatemate" deviceset="C-EU" device="C0805" value="22n"/>
 <part name="P+6" library="supply1" deviceset="VCC" device=""/>
 <part name="R20" library="skatemate" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>

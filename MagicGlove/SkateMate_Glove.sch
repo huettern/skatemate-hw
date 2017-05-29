@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3627,9 +3627,6 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <part name="+3V31" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="+3V37" library="supply1" deviceset="+3V3" device=""/>
-<part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="eagle-ltspice" deviceset="R" device="R0603" value="10k"/>
-<part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_0805" value="Red"/>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_0805" value="RED"/>
 <part name="LED3" library="led" deviceset="LED" device="CHIPLED_0805" value="RED"/>
@@ -3638,17 +3635,17 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <part name="LED6" library="led" deviceset="LED" device="CHIPLED_0805" value="RED"/>
 <part name="LED7" library="led" deviceset="LED" device="CHIPLED_0805" value="RED"/>
 <part name="LED8" library="led" deviceset="LED" device="CHIPLED_0805" value="RED"/>
-<part name="R10" library="eagle-ltspice" deviceset="R" device="R0603" value="150"/>
-<part name="R9" library="eagle-ltspice" deviceset="R" device="R0603" value="150"/>
-<part name="R8" library="eagle-ltspice" deviceset="R" device="R0603" value="150"/>
-<part name="R7" library="eagle-ltspice" deviceset="R" device="R0603" value="150"/>
-<part name="R6" library="eagle-ltspice" deviceset="R" device="R0603" value="150"/>
-<part name="R4" library="eagle-ltspice" deviceset="R" device="R0603" value="150"/>
-<part name="R3" library="eagle-ltspice" deviceset="R" device="R0603" value="150"/>
-<part name="R1" library="eagle-ltspice" deviceset="R" device="R0603" value="150"/>
+<part name="R10" library="eagle-ltspice" deviceset="R" device="R0603" value="82"/>
+<part name="R9" library="eagle-ltspice" deviceset="R" device="R0603" value="82"/>
+<part name="R8" library="eagle-ltspice" deviceset="R" device="R0603" value="82"/>
+<part name="R7" library="eagle-ltspice" deviceset="R" device="R0603" value="82"/>
+<part name="R6" library="eagle-ltspice" deviceset="R" device="R0603" value="82"/>
+<part name="R4" library="eagle-ltspice" deviceset="R" device="R0603" value="82"/>
+<part name="R3" library="eagle-ltspice" deviceset="R" device="R0603" value="82"/>
+<part name="R1" library="eagle-ltspice" deviceset="R" device="R0603" value="82"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="PAD1" library="wirepad" deviceset="1,6/0,8" device="" value="-"/>
-<part name="PAD2" library="wirepad" deviceset="1,6/0,8" device="" value="+"/>
+<part name="FR2" library="wirepad" deviceset="1,6/0,8" device="" value="-"/>
+<part name="FR1" library="wirepad" deviceset="1,6/0,8" device="" value="+"/>
 <part name="IC1" library="BU33TD3WG" deviceset="BU33TD3WG-TR" device="" value="BU33TD3WG"/>
 <part name="U$1" library="MCP73831" deviceset="MCP73831" device=""/>
 <part name="C7" library="eagle-ltspice" deviceset="C" device="C0603" value=".47u"/>
@@ -3656,7 +3653,7 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="C9" library="eagle-ltspice" deviceset="C" device="C0603" value="4.7u"/>
-<part name="R11" library="eagle-ltspice" deviceset="R" device="R0603" value="2k"/>
+<part name="R11" library="eagle-ltspice" deviceset="R" device="R0603" value="62k"/>
 <part name="R12" library="eagle-ltspice" deviceset="R" device="R0603" value="330"/>
 <part name="LED9" library="led" deviceset="LED" device="CHIPLED_0805" value="Red"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
@@ -3675,16 +3672,24 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="C1" library="eagle-ltspice" deviceset="C" device="C0603" value=".47u"/>
 <part name="IC2" library="linear" deviceset="LMV321?*" device="M5"/>
-<part name="R14" library="eagle-ltspice" deviceset="R" device="R0603" value="10k"/>
-<part name="R15" library="eagle-ltspice" deviceset="R" device="R0603" value="10k"/>
-<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="R14" library="eagle-ltspice" deviceset="R" device="R0603" value="24k"/>
 <part name="U2" library="Atmel_By_element14_Batch_1-00" deviceset="ATMEGA328PB-AU" device=""/>
+<part name="R15" library="eagle-ltspice" deviceset="R" device="R0603" value="18k"/>
+<part name="R16" library="eagle-ltspice" deviceset="R" device="R0603" value="13k"/>
+<part name="R17" library="eagle-ltspice" deviceset="R" device="R0603" value="13k"/>
+<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="R2" library="eagle-ltspice" deviceset="R" device="R0603" value="13k"/>
+<part name="R18" library="eagle-ltspice" deviceset="R" device="R0603" value="13k"/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="C1" library="eagle-ltspice" deviceset="C" device="C0603" value="100n"/>
+<part name="GND18" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="88.9" y="-45.72" size="1.778" layer="91">R11 controls the charge current for the battery.</text>
 </plain>
 <instances>
 <instance part="C3" gate="G$1" x="15.24" y="63.5" rot="R90"/>
@@ -3700,9 +3705,6 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <instance part="+3V31" gate="G$1" x="195.58" y="33.02" rot="R270"/>
 <instance part="GND9" gate="1" x="190.5" y="78.74" rot="R180"/>
 <instance part="+3V37" gate="G$1" x="185.42" y="81.28"/>
-<instance part="GND7" gate="1" x="76.2" y="81.28" rot="R180"/>
-<instance part="R2" gate="G$1" x="91.44" y="78.74" rot="R270"/>
-<instance part="+3V35" gate="G$1" x="91.44" y="88.9"/>
 <instance part="LED1" gate="G$1" x="76.2" y="7.62"/>
 <instance part="LED2" gate="G$1" x="83.82" y="7.62"/>
 <instance part="LED3" gate="G$1" x="93.98" y="7.62"/>
@@ -3720,8 +3722,8 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <instance part="R3" gate="G$1" x="83.82" y="17.78" rot="R90"/>
 <instance part="R1" gate="G$1" x="76.2" y="17.78" rot="R90"/>
 <instance part="GND8" gate="1" x="111.76" y="-10.16"/>
-<instance part="PAD1" gate="P" x="83.82" y="73.66"/>
-<instance part="PAD2" gate="P" x="76.2" y="73.66" rot="R90"/>
+<instance part="FR2" gate="P" x="43.18" y="114.3" rot="R270"/>
+<instance part="FR1" gate="P" x="43.18" y="121.92" rot="R90"/>
 <instance part="IC1" gate="G1" x="170.18" y="-33.02"/>
 <instance part="U$1" gate="G$1" x="66.04" y="-33.02"/>
 <instance part="C7" gate="G$1" x="195.58" y="-40.64"/>
@@ -3748,12 +3750,19 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <instance part="GND16" gate="1" x="20.32" y="-17.78" rot="R90"/>
 <instance part="GND2" gate="1" x="104.14" y="58.42"/>
 <instance part="+3V3" gate="G$1" x="104.14" y="86.36"/>
-<instance part="C1" gate="G$1" x="93.98" y="91.44" rot="R90"/>
 <instance part="IC2" gate="G$1" x="104.14" y="71.12"/>
-<instance part="R14" gate="G$1" x="93.98" y="104.14" rot="R180"/>
-<instance part="R15" gate="G$1" x="78.74" y="109.22" rot="R90"/>
-<instance part="GND17" gate="1" x="78.74" y="121.92" rot="R180"/>
+<instance part="R14" gate="G$1" x="93.98" y="91.44" rot="R180"/>
 <instance part="U2" gate="G$1" x="48.26" y="38.1"/>
+<instance part="R15" gate="G$1" x="20.32" y="119.38" rot="R270"/>
+<instance part="R16" gate="G$1" x="20.32" y="99.06" rot="R270"/>
+<instance part="R17" gate="G$1" x="43.18" y="99.06" rot="R270"/>
+<instance part="+3V4" gate="G$1" x="33.02" y="144.78"/>
+<instance part="GND7" gate="1" x="30.48" y="83.82"/>
+<instance part="R2" gate="G$1" x="-38.1" y="93.98" rot="R270"/>
+<instance part="R18" gate="G$1" x="-38.1" y="78.74" rot="R270"/>
+<instance part="GND17" gate="1" x="-38.1" y="66.04"/>
+<instance part="C1" gate="G$1" x="25.4" y="63.5" rot="R90"/>
+<instance part="GND18" gate="1" x="33.02" y="71.12" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -3839,11 +3848,6 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <wire x1="5.08" y1="-17.78" x2="17.78" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="PAD2" gate="P" pin="P"/>
-<pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="76.2" y1="78.74" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="V-"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="104.14" y1="63.5" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
@@ -3884,9 +3888,26 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <junction x="111.76" y="-5.08"/>
 </segment>
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="93.98" x2="20.32" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="88.9" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="30.48" y1="88.9" x2="43.18" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="88.9" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="30.48" y1="86.36" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
+<junction x="30.48" y="88.9"/>
+</segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="78.74" y1="114.3" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="68.58" x2="-38.1" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="33.02" y1="68.58" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="63.5" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -3897,12 +3918,16 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <wire x1="10.16" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="58.42" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
 <junction x="10.16" y="63.5"/>
-<wire x1="30.48" y1="60.96" x2="10.16" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="60.96" x2="22.86" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="60.96" x2="10.16" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="60.96" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="55.88" x2="10.16" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="55.88" x2="10.16" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VCC_2"/>
 <pinref part="U2" gate="G$1" pin="AVCC"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="60.96" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<junction x="22.86" y="60.96"/>
 </segment>
 <segment>
 <pinref part="+3V36" gate="G$1" pin="+3V3"/>
@@ -3929,11 +3954,6 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <wire x1="-17.78" y1="17.78" x2="-17.78" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="+3V35" gate="G$1" pin="+3V3"/>
-<wire x1="91.44" y1="86.36" x2="91.44" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="V+"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <wire x1="104.14" y1="78.74" x2="104.14" y2="83.82" width="0.1524" layer="91"/>
@@ -3943,6 +3963,17 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <pinref part="+3V37" gate="G$1" pin="+3V3"/>
 <wire x1="194.31" y1="64.77" x2="185.42" y2="64.77" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="64.77" x2="185.42" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<pinref part="FR1" gate="P" pin="P"/>
+<wire x1="33.02" y1="142.24" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="33.02" y1="129.54" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="129.54" x2="43.18" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="124.46" x2="20.32" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
+<junction x="33.02" y="129.54"/>
 </segment>
 </net>
 <net name="RESETICSP" class="0">
@@ -3955,11 +3986,16 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <label x="96.52" y="50.8" size="1.778" layer="95" xref="yes"/>
 <wire x1="81.28" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="PC6"/>
+<label x="22.86" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="2"/>
 <wire x1="175.26" y1="27.94" x2="166.37" y2="27.94" width="0.1524" layer="91"/>
 <label x="166.37" y="27.94" size="0.6096" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PB1"/>
+<wire x1="30.48" y1="35.56" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -4168,7 +4204,7 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <pinref part="U2" gate="G$1" pin="PD0"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="VBAT+" class="0">
 <segment>
 <pinref part="IC1" gate="G1" pin="VIN"/>
 <pinref part="C8" gate="G$1" pin="1"/>
@@ -4189,6 +4225,12 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <wire x1="96.52" y1="-40.64" x2="134.62" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-40.64" x2="134.62" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="-27.94" x2="142.24" y2="-27.94" width="0.1524" layer="91"/>
+<label x="96.52" y="-22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="-38.1" y1="109.22" x2="-38.1" y2="99.06" width="0.1524" layer="91"/>
+<label x="-38.1" y="109.22" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -4238,9 +4280,10 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <pinref part="S1" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="35.56" x2="-7.62" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="-7.62" y1="35.56" x2="30.48" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="PB0"/>
+<wire x1="30.48" y1="38.1" x2="-7.62" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="38.1" x2="-7.62" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-7.62" y="35.56"/>
-<pinref part="U2" gate="G$1" pin="PB1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -4250,46 +4293,65 @@ http://www.national.com/dt/lmv_qual.pdf</description>
 <pinref part="U2" gate="G$1" pin="AREF"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="91.44" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="91.44" x2="68.58" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="104.14" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="-IN"/>
-<wire x1="68.58" y1="91.44" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="68.58" y1="91.44" x2="78.74" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="91.44" x2="78.74" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
+<net name="ADIN" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUT"/>
 <wire x1="111.76" y1="71.12" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="71.12" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="91.44" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="99.06" y1="104.14" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="104.14" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
-<junction x="119.38" y="91.44"/>
-<wire x1="111.76" y1="71.12" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<junction x="111.76" y="71.12"/>
-<wire x1="111.76" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
+<label x="119.38" y="71.12" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
 <pinref part="U2" gate="G$1" pin="PC0"/>
+<wire x1="73.66" y1="63.5" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
+<label x="73.66" y="63.5" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="DMSREF+" class="0">
+<segment>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="104.14" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
+<label x="20.32" y="106.68" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="+IN"/>
+<wire x1="96.52" y1="73.66" x2="93.98" y2="73.66" width="0.1524" layer="91"/>
+<label x="93.98" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="DMSREF-" class="0">
+<segment>
+<pinref part="FR2" gate="P" pin="P"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="104.14" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
+<label x="43.18" y="106.68" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="91.44" x2="88.9" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="-IN"/>
+<wire x1="68.58" y1="91.44" x2="68.58" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
+<label x="68.58" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ADVBAT" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="PAD1" gate="P" pin="P"/>
-<wire x1="91.44" y1="73.66" x2="86.36" y2="73.66" width="0.1524" layer="91"/>
-<junction x="91.44" y="73.66"/>
-<wire x1="91.44" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="+IN"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="-38.1" y1="88.9" x2="-38.1" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="86.36" x2="-38.1" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="86.36" x2="-30.48" y2="86.36" width="0.1524" layer="91"/>
+<junction x="-38.1" y="86.36"/>
+<label x="-30.48" y="86.36" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PC1"/>
+<wire x1="66.04" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
+<label x="73.66" y="58.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
